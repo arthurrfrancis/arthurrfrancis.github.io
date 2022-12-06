@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Univille</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<div id="container">
+		
+		<header>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Colégio</a></li>
+			        <li><a href="#">Graduação</a></li>
+			        <li><a href="#">Mestrados e Doutorados</a></li>
+			        <li><a href="#">Pesquisa</a></li>
+			        <li><a href="#">EaD</a></li>
+			        <li><a href="#">Contato</a></li>
+				</ul>
+			</nav>
+
+		</header>
+
+		<div id="principal">
+			
+			<div id="conteudo">
+
+				<section id="capa">
+					<img src="https://images02.gruposinternet.com.br/unsafe/600x315/smart/https://www.univille.edu.br/templates/source/8/images/logo_univille_hor.png">
+				</section>
+					<article id="video">
+						
+						<h3>Vídeo: Formas de ingresso</h3>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/dt5DMAMtQTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+					</article>
+
+					<article id="mapa">
+						<h3>Mapa: Encontre a Univille</h3>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3578.3389007155797!2d-48.856643285349854!3d-26.250662172238098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94deafa3e1be8ad7%3A0xd5cdf20951ca803a!2sUniville%20-%20Campus%20Joinville%20-%20Bom%20Retiro!5e0!3m2!1spt-BR!2sbr!4v1670327568283!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</article>
+
+					<article id="cursos">
+						<h3>Cursos</h3>
+						<ul>
+							<li>
+	                        	<a href="#">Medicina</a>
+	                        </li>
+	                        <li>
+	                        	<a href="#">Engenharia de                                           Software</a>
+	                        </li>
+	                        <li>
+	                        	<a href="#">Sistemas de                                             informação</a>
+	                        </li>
+	                        <li>
+	                        	<a href="#">Arquitetura</a>
+	                        </li>
+	                        <li>
+	                        	<a href="#">Direito</a>
+	                        </li>
+	                        <li>
+	                        	<a href="#">Educação Física</a>
+	                        </li>
+	                        <li>
+	                        	<a href="#"><strong>Veja todos                                      (68814)</strong></a>
+	                        </li>
+						</ul>
+					</article>
+
+					<article id="historia">
+						<h3>Sobre a instituição</h3>
+						<p>
+	                    	A instituição traz na sua trajetória de mais de 50 anos a atenção para construção do conhecimento de seus acadêmicos, além de estar preparada para tornar mais eficiente o processo de aprendizagem. Adepta a uma concepção moderna de ensino que valoriza o interesse social, respeita as diferenças individuais e promove ações coletivas e projetos interdisciplinares, em um universo caracterizado pela enriquecedora coexistência da diversidade cultural.
+	                    </p>
+
+	                    <a href=""><strong>Leia mais</strong></a>
+					</article>
+					
+				</section>
+
+			</div>
+
+			<footer>
+				<p>
+					<a href="#">Home</a>
+		            <a href="#">Colégio</a>
+		            <a href="#">Graduação</a>
+		            <a href="#">Mestrados e Doutorados</a>
+		            <a href="#">Pesquisa</a>
+		            <a href="#">EaD</a>
+		            <a href="#">contato</a>
+				</p>
+				<p>
+					2022 <a href="">Univille</a> - Todos os direitos reservados.
+				</p>
+			</footer>
+
+		</div>
+
+	</div>
+
+<style>
+body {
+	background: white;
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+#container {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+a:link, a:active, a:visited {
+	color: #af670a;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #227115;
+}
+
+header {
+	padding: 15px 0;
+	height: 55px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 20px;
+	float: right;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a:link {
+	display: block;
+	margin-right: 25px;
+	padding-bottom: 3px;
+	text-transform: uppercase;
+}
+
+nav ul li a:hover {
+	border-bottom: 1px solid #535858;
+}
+
+#conteudo {
+	width: 1010px;
+	margin-bottom: 20px;
+}
+
+article#video {
+	float: left;
+	width: 110px;
+	margin-left: 25px;
+}
+
+article#mapa {
+	float: right;
+	width: 310px;
+	margin-left: 37px;
+}
+
+article#cursos {
+	float: left;
+  padding-top: 400px;
+	width: 310px;
+	margin: 15px 0 0 25px;
+  align-content: left;
+}
+
+article#historia {
+	float: right;
+	width: 310px;
+	margin: 15px 0 0 37px;
+  align-content: right;
+}
+
+h3 {
+	color: #227115;
+	font-size: 1.0em;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+
+h4 {
+	color: #227115;
+	text-transform: uppercase;
+	padding-bottom: 3px;
+	margin-bottom: 0;
+}
+
+footer {
+	clear: both;
+	padding: 20px 0 30px 0;
+	text-align: center;
+	margin-top: 20px;
+}
+
+</style>
+
+</body>
+</html>
